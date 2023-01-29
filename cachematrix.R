@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## The first function, makeCacheMatrix creates a special matrix, as an input data
+## The solved answer "m", is set as null
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -18,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function returns the inverse of the special matrix and checks cached data
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
